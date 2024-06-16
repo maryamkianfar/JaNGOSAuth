@@ -4,6 +4,7 @@ services:
 jdk:
  - openjdk7
  - oraclejdk8
+ - res jdk6
  - oraclejdk7
 branches:
  only:
@@ -12,3 +13,4 @@ branches:
 before_install:
  - mysql --user root < /home/travis/build/Warkdev/JaNGOSAuth/database/structure.sql
  - mysql --user root jangosauth < /home/travis/build/Warkdev/JaNGOSAuth/database/data.sql
+ 
