@@ -4,7 +4,6 @@ services:
 jdk:
  - openjdk7
  - oraclejdk8
- - res jdk6
  - oraclejdk7
 branches:
  only:
